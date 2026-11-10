@@ -42,11 +42,11 @@ except Exception as e:
 
 # Crear la barra lateral con los Sliders (valores por defecto en 0.0)
 st.sidebar.header("Tus Puntuaciones (0 - 100)")
-op = st.sidebar.slider("Apertura (op)", 0.0, 100.0, 0.0, 0.1)
-co = st.sidebar.slider("Conciencia (co)", 0.0, 100.0, 0.0, 0.1)
-ex = st.sidebar.slider("Extroversión (ex)", 0.0, 100.0, 0.0, 0.1)
-ag = st.sidebar.slider("Amabilidad (ag)", 0.0, 100.0, 0.0, 0.1)
-ne = st.sidebar.slider("Neuroticismo (ne)", 0.0, 100.0, 0.0, 0.1)
+op = st.sidebar.slider("Apertura (op)", 0.0, 100.0, 80.9, 0.1)
+co = st.sidebar.slider("Conciencia (co)", 0.0, 100.0, 90.2, 0.1)
+ex = st.sidebar.slider("Extroversión (ex)", 0.0, 100.0, 90.4, 0.1)
+ag = st.sidebar.slider("Amabilidad (ag)", 0.0, 100.0, 90.1, 0.1)
+ne = st.sidebar.slider("Neuroticismo (ne)", 0.0, 100.0, 20.0, 0.1)
 
 # Botón para calcular
 if st.sidebar.button("Analizar Mi Personalidad"):
